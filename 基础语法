@@ -1,10 +1,8 @@
 #include<iostream> //输入输出头文件
 using namespace std;//直接进入std空间
-cout ci   ci成本
-	system("pause");   系统(“暂停”);
-
-	return 0;   返回0;
-}
+cout<< cin>>  <<endl //输入输出 结束
+**\#define** 宏常量： #define 常量名 常量值
+**const**修饰的变量 const 数据类型 常量名 = 常量值
 | **数据类型**        | **占用空间**                                    | 取值范围         |
 | ------------------- | ----------------------------------------------- | ---------------- |
 | short(短整型)       | 2字节                                           | (-2^15 ~ 2^15-1) |
@@ -17,3 +15,10 @@ cout ci   ci成本
 | double       | 8字节        | 15～16位有效数字 |
 A 的ASCII为65
 a 的ASCII为97
+sizeof( 数据类型 / 变量)//数据类型的所占大小
+\n	换行符（New Line）	让文本从下一行开始显示（如日志换行、代码中换行输出）
+\t	制表符（Tab）	实现文本对齐（如表格列分隔、缩进），等效于按一次 Tab 键
+\r	回车符（Carriage Return）	让光标回到当前行的开头（常与 \n 组合为 \r\n 表示 Windows 下的换行）
+\\	反斜杠本身（Backslash）	当需要在文本中显示 \ 时使用（如文件路径 C:\\Users\\xxx）
+\"	双引号（Double Quote）	在被双引号包裹的字符串中，显示双引号（如 "He said \"Hello\""）
+\'	单引号（Single Quote）	在被单引号包裹的字符串中，显示单引号（如 'It\'s a cat'）
